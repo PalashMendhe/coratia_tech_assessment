@@ -85,7 +85,8 @@ intern_assessment_cortech/
 ├── requirements.txt
 ├── README.md
 ├── implementation.md  # Detailed implementation plan
-└── changelog.md       # Future improvements roadmap
+└── resource/prompt.md # The initial prompt written 
+
 ```
 
 ---
@@ -110,7 +111,7 @@ Two QTimers decouple simulation from rendering:
 
 AI coding assistance was used during this project as follows:
 
-- **Tool used**: Google Antigravity (Gemini / Claude Sonnet 4.6 Thinking)
+- **Tool used**: Google Antigravity (Gemini / Claude Sonnet 4.6 Thinking), Google Gemini Argon (For prompt enhancemnt)
 - **How it was used**: 
   - Scaffolding of the PySide6 layout structure and stylesheet (DARK_STYLE)
   - Generating the OSM tile math (`latlon_to_tile`, `tile_to_latlon`, `latlon_to_pixel`)
